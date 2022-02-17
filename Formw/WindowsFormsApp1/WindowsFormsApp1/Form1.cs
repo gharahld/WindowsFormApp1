@@ -8,26 +8,38 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+
+// Class container that contain the app name
 namespace WindowsFormsApp1
 {
+    // public methd for form1
     public partial class Form1 : Form
     {
+    // assign a variable and make it private. 
         private const string V = "' PUBLISH DATE ='";
+        
+        //method for form1
 
         public Form1()
         { 
+        // constroctor for form1
             InitializeComponent();
         }
+        // Method for form1 
 
         private void Form1_Load(object sender, EventArgs e)
         {
+        // A method that will show the page
             Show();
         }
+        //button1 when click
 
         private void Button1_Click(object sender, EventArgs e) 
         {
+        //close the form
             Close();
         }
+        //button2 when click
         
         private void Button2_Click(object sender, EventArgs e)
         {
@@ -57,6 +69,7 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Please check your USERNAME and PASSWORD");
             }
         }
+           //button3 when click
 
         private void Button3_Click(object sender, EventArgs e)
         {
