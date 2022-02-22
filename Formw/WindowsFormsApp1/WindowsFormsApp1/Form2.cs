@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,16 +8,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+// A container class that has the name of the app 
 namespace WindowsFormsApp1
 {
+    // it's a class method that contain form2
     public partial class Form2 : Form
     {
+    // a public class method for form2
         public Form2(string text)
         {
+        // It's a method that will help the disgner of form2
             InitializeComponent();
         }
-        
+        // It's a method where a button is created
         private void Button1_Click(object sender, EventArgs e)
         {
             // gets connection to talk to file database
@@ -63,21 +66,28 @@ namespace WindowsFormsApp1
             Close();
 
     }
+    // Method button for textbox3 in form2
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             
         }
+        
+        // Method button for textbox2
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
       
         }
+        
+          // Method button for textbox1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
            
         }
+        
+          // Method button for textbox4
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {

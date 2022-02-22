@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,22 +9,32 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//container which contain the name of the app
+
 namespace WindowsFormsApp1
 {
+    //Method for form3
     public partial class Form3 : Form
     {
+    //class method for myusername
+  
         public string myUsername;
+        //class method for form3 which contain username
 
         public Form3(string username)
         {
+        //it's a constructor for form3
             InitializeComponent();
+            //assign myUsername a value
             myUsername = username;
         }
+        //method for main page
 
         private void Main_Load(object sender, EventArgs e)
         {
 
         }
+        //method for the button1 on click
 
 
         private void Button1_Click(object sender, EventArgs e)
